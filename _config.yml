@@ -92,12 +92,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: "+1 (631) 353-1070"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
+      url: "tel:+1-631-353-1070"
+    - label: "detail@hamptonsmobiledetailing.com"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "mailto:detail@hamptonsmobiledetailing.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -122,8 +122,10 @@ exclude:
   - vendor
   - .asset-cache
   - .bundle
+  - .gitignore
   - .idea
   - .jekyll-assets-cache
+  - .jekyll-metadata
   - .sass-cache
   - assets/js/plugins
   - assets/js/_main.js
@@ -149,7 +151,7 @@ keep_files:
   - .git
   - .svn
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,html"
 
 
 # Conversion

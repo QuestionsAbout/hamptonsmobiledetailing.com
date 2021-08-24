@@ -1,0 +1,29 @@
+﻿
+// See https://github.com/mmistakes/minimal-mistakes/blob/master/_sass/minimal-mistakes/_variables.scss
+// for the variables provided by this theme
+
+/* typefaces */
+$racing-sans: "Racing Sans One" !default;
+$lato: "Lato" !default;
+$header-font-family: $racing-sans !default;
+$global-font-family: $lato,"Helvetica Neue",Helvetica,Arial,sans-serif !default;
+
+/* colors */
+$text-color: white !default;
+$primary-color: white !default;
+$background-color: rgba(144, 194, 191, 0.5) !default;
+$footer-background-color: rgba(236, 16, 9, 1) !default;
+$header-background-color: $footer-background-color !default;
+$secondary-background-color: #0184b8 !default;
+
+/* breakpoints */
+$max-width: 100% !default;
+
+/* grid */
+$right-sidebar-width-narrow: 0px !default;
+$right-sidebar-width: 0px !default;
+$right-sidebar-width-wide: 0px !default;
+
+
+
+
