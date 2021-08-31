@@ -7,15 +7,17 @@ $racing-sans: "Racing Sans One" !default;
 $lato: "Lato" !default;
 $header-font-family: $racing-sans !default;
 $global-font-family: $lato,"Helvetica Neue",Helvetica,Arial,sans-serif !default;
+$roboto: "Roboto",sans-serif !default;
 
 /* colors */
 $text-color: white !default;
 $primary-color: white !default;
-$background-color: rgba(144, 194, 191, 0.5) !default;
+$background-color: rgba(144, 194, 191, 1) !default;
 $footer-background-color: rgba(236, 16, 9, 1) !default;
 $header-background-color: $footer-background-color !default;
 $secondary-background-color: #0184b8 !default;
 $masthead-link-color-hover: #a2d61f !default;
+$form-background-color: #675e5c !default;
 
 /* breakpoints */
 $max-width: 100% !default;
