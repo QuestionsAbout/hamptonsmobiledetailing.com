@@ -3,3 +3,70 @@
 <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" id="forminator-font-roboto-css"  href="https://fonts.googleapis.com/css?family=Roboto&#038;ver=1.0" type="text/css" media="all" />
 <link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
+
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SiteNavigationElement",
+        "name": [
+            "HOME",
+            "ABOUT US",
+            "CONTACT US"
+        ],
+        "url": [
+            "{{ site.url }}",
+            "{{ site.url }}/about",
+            "{{ site.url }}/contact"
+        ]
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "HAMPTONS MOBILE AUTO DETAILING &amp; CAR WASH",
+        "image": "{{ site.url }}/assets/images/hmd-logo-oval-500.webp",
+        "url": "{{ site.url }}",
+        "telephone": "+1 (631) 353-1070",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "50 Hill Street #339",
+            "addressLocality": "Southampton",
+            "postalCode": "11968",
+            "addressCountry": "US",
+            "addressRegion": "NY"
+        },
+        "location": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCircle",
+                "geoRadius": "30",
+                "geoMidpoint": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "40.8599",
+                    "longitude": "72.5678"
+                }
+            }
+        },
+        "openingHours": [
+            "Mo-Su 08:00-17:00"
+        ],
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+1 (631) 353-1070",
+                "contactType": "reservations",
+                "email": "detail@hamptonsmobiledetailing.com",
+                "areaServed": [
+                    "US",
+                    "NY",
+                    "Suffolk County"
+                ],
+                "availableLanguage": [
+                    "English"
+                ]
+            }
+        ]
+    }
+</script>
