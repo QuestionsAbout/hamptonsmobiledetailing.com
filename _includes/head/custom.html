@@ -4,69 +4,309 @@
 <link rel="stylesheet" id="forminator-font-roboto-css"  href="https://fonts.googleapis.com/css?family=Roboto&#038;ver=1.0" type="text/css" media="all" />
 <link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
 
-
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SiteNavigationElement",
-        "name": [
-            "HOME",
-            "ABOUT US",
-            "CONTACT US"
-        ],
-        "url": [
-            "{{ site.url }}",
-            "{{ site.url }}/about",
-            "{{ site.url }}/contact"
-        ]
-    }
-</script>
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "HAMPTONS MOBILE AUTO DETAILING &amp; CAR WASH",
-        "image": "{{ site.url }}/assets/images/hmd-logo-oval-500.webp",
-        "url": "{{ site.url }}",
-        "telephone": "+1 (631) 353-1070",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "50 Hill Street #339",
-            "addressLocality": "Southampton",
-            "postalCode": "11968",
-            "addressCountry": "US",
-            "addressRegion": "NY"
-        },
-        "location": {
-            "@type": "Place",
-            "geo": {
-                "@type": "GeoCircle",
-                "geoRadius": "30",
-                "geoMidpoint": {
-                    "@type": "GeoCoordinates",
-                    "latitude": "40.8599",
-                    "longitude": "72.5678"
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@id": "#sso/organization/site/org_logo_url",
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://hamptonsmobiledetailing.com",
+            "name": "Hamptons Mobile Auto Detailing",
+            "description": "Mobile auto detailing and car wash, from the Hamptons to Brookhaven in Suffolk County, NY.",
+            "alternateName": "Mobile Auto Detailing and Car Wash- Hamptons",
+            "image": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
                 }
-            }
-        },
-        "openingHours": [
-            "Mo-Su 08:00-17:00"
-        ],
-        "contactPoint": [
-            {
-                "@type": "ContactPoint",
-                "telephone": "+1 (631) 353-1070",
-                "contactType": "reservations",
-                "email": "detail@hamptonsmobiledetailing.com",
-                "areaServed": [
-                    "US",
-                    "NY",
-                    "Suffolk County"
+            ],
+            "logo": {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                "width": 600,
+                "height": 600
+            },
+            "location": {
+                "@context": "https://schema.org",
+                "@type": "AutoWash",
+                "name": "Hamptons Mobile Auto Detailing",
+                "alternateName": "Mobile Auto Detailing and Car Wash- Hamptons",
+                "description": "Mobile auto detailing and car wash, from the Hamptons to Brookhaven in Suffolk County, NY.",
+                "telephone": "1-631-353-1070",
+                "currenciesAccepted": "USD",
+                "paymentAccepted": "Cash, Credit Card",
+                "priceRange": "$, $$, $$$, $$$$, $$$$$",
+                "address": {
+                    "@context": "https://schema.org",
+                    "@type": "PostalAddress",
+                    "name": "Hamptons Mobile Auto Detailing",
+                    "streetAddress": "50 Hill Street",
+                    "postOfficeBoxNumber": "339",
+                    "addressLocality": "Southampton",
+                    "addressRegion": "NY",
+                    "postalCode": "11968",
+                    "addressCountry": "US"
+                },
+                "geo": {
+                    "@context": "https://schema.org",
+                    "@type": "GeoCoordinates",
+                    "latitude": "40.883440",
+                    "longitude": "-72.394760"
+                },
+                "openingHoursSpecification": [
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Sunday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Monday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Tuesday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Wednesday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Thursday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Friday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Saturday",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    },
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Public Holidays",
+                        "opens": "09:00+00:00",
+                        "closes": "17:00+00:00"
+                    }
                 ],
-                "availableLanguage": [
-                    "English"
+                "image": [
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "ImageObject",
+                        "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                        "width": 600,
+                        "height": 600
+                    }
                 ]
             }
-        ]
-    }
-</script>
+        },
+        {
+            "@id": "#sso/website",
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://hamptonsmobiledetailing.com",
+            "name": "Hamptons Mobile Auto Detailing",
+            "description": "Mobile auto detailing and car wash, from the Hamptons to Brookhaven in Suffolk County, NY.",
+            "potentialAction": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "SearchAction",
+                    "target": "https://hamptonsmobiledetailing.com?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "text": "Mobile auto detailing and car wash, from the Hamptons to Brookhaven in Suffolk County, NY.",
+            "image": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
+                }
+            ],
+            "publisher": [
+                {
+                    "@id": "#sso/organization/site/org_logo_url"
+                }
+            ],
+            "headline": "HOME",
+            "copyrightYear": "2018",
+            "inLanguage": "en_US",
+            "dateCreated": "2018-04-15T21:02:59+00:00",
+            "datePublished": "2018-04-15T21:02:59+00:00",
+            "dateModified": "2021-05-17T01:42:25+00:00",
+            "author": {
+                "@id": "/4e5ef4dd77e8b2cfc39486cd4b663cdf#sso/person"
+            },
+            "thumbnailUrl": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+            "alternateName": "Mobile Auto Detailing and Car Wash- Hamptons"
+        },
+        {
+            "@id": "/4e5ef4dd77e8b2cfc39486cd4b663cdf#sso/person",
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "description": "Hamptons Mobile Auto Detailing"
+        },
+        {
+            "@id": "#sso/auto.wash/site/org_logo_url",
+            "@context": "https://schema.org",
+            "@type": "AutoWash",
+            "mainEntityOfPage": "https://hamptonsmobiledetailing.com",
+            "url": "https://hamptonsmobiledetailing.com",
+            "name": "Hamptons Mobile Auto Detailing",
+            "description": "Mobile auto detailing and car wash, from the Hamptons to Brookhaven in Suffolk County, NY.",
+            "alternateName": "Mobile Auto Detailing and Car Wash- Hamptons",
+            "image": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ImageObject",
+                    "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                    "width": 600,
+                    "height": 600
+                }
+            ],
+            "logo": {
+                "@context": "https://schema.org",
+                "@type": "ImageObject",
+                "url": "https://hamptonsmobiledetailing.com/wp-content/uploads/2021/05/hmd-logo-round-600.png",
+                "width": 600,
+                "height": 600
+            },
+            "telephone": "1-631-353-1070",
+            "currenciesAccepted": "USD",
+            "paymentAccepted": "Cash, Credit Card",
+            "priceRange": "$, $$, $$$, $$$$, $$$$$",
+            "address": {
+                "@context": "https://schema.org",
+                "@type": "PostalAddress",
+                "name": "Hamptons Mobile Auto Detailing",
+                "streetAddress": "50 Hill Street",
+                "postOfficeBoxNumber": "339",
+                "addressLocality": "Southampton",
+                "addressRegion": "NY",
+                "postalCode": "11968",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@context": "https://schema.org",
+                "@type": "GeoCoordinates",
+                "latitude": "40.883440",
+                "longitude": "-72.394760"
+            },
+            "openingHoursSpecification": [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Sunday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Monday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Tuesday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Wednesday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Thursday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Friday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Saturday",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Public Holidays",
+                    "opens": "09:00+00:00",
+                    "closes": "17:00+00:00"
+                }
+            ]
+        }
+    ]
+}</script>
